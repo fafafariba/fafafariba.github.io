@@ -1,8 +1,8 @@
-#Word Unscramble
+# Word Unscramble
 
 Given a set of letters, the player will try to find as many words as possible in the alotted time.
 
-##Functionality & MVP
+## Functionality & MVP
 
 Players will be able to:
 
@@ -16,39 +16,32 @@ Additionally the project will include
 - [ ] Production ReadMe
 - [ ] Game instructions
 
-##Wireframes
+## Wireframes
 
-##Architecture & Technologies
+Visual inspiration from [Bonza](https://play.google.com/store/apps/details?id=air.au.com.minimega.bonza)
 
-This game will use Vanilla Javascript, Webpack for bundling, and Babel for converint ES6 to ES5 for browswers.
+Layout inspiration from [Word Unscramble]()
 
-It will also utilize the [Scrabble word game dictionary](https://www.wordgamedictionary.com/word-lists/) as a reference.
+## Architecture & Technologies
 
-##Implementation Timeline
+### `word.js` file 
+* Select random 5 letter word
+* Determine combinations
+* Parse through dictionaries to find valid words
 
-###Day 1
+### `game.js` file
+* Instantiates game
+* Run and track timer
+* Validates player words
+* Tracks correctly guessed words
+* Render to DOM
 
-- [ ] Determine algorithm for finding word combinations
-- [ ] Format dictionaries
-- [ ] word.js file 
-  * Select random 5 letter word
-  * Determine combinations
-  * Parse through dictionaries to find valid words
-  
+### `player.js` file
+* Formats player input
+* Delegates to game for validating
 
-###Day 2
-
-- [ ] game.js file
-  * Instantiates word
-  * Run and track timer
-  * Add input and buttons
-- [ ] controls.js
-  * Add keyboard controls
-
-
-###Day 3
-
-- [ ] Styling
+### `main.css` file
+* Styling
   * Color scheme
   * Font
   * Letter tiles
@@ -56,14 +49,38 @@ It will also utilize the [Scrabble word game dictionary](https://www.wordgamedic
   * Flashing of correct/incorrect words
   * Sound effects
 
-###Day 4
 
-- [ ] Final style touches
+## Technologies
 
-##Bonus Features
+This game will use Vanilla Javascript, Webpack for bundling, and Babel for converint ES6 to ES5 for browswers.
 
-*Scoring
-*A 'shuffle' letters button
-*Multi-levels featuring 6 letter and 7 letter words
+It will also utilize the [Scrabble word game dictionary](https://www.wordgamedictionary.com/word-lists/) as a reference.
+
+## Implementation Timeline
+
+### Day 1
+
+- [ ] Format dictionaries
+- [ ] word.js file 
+- [ ] player.js file
+  
+
+### Day 2
+- [ ] game.js file 
+- [ ] keyboard controls 
+
+### Day 3
+
+- [ ] Animations
+
+### Day 4
+
+- [ ] Styling
+
+## Bonus Features
+
+* Scoring
+* A 'shuffle' letters button
+* Multi-levels featuring 6 letter and 7 letter words
 
 
