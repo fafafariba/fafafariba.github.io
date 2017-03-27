@@ -33,11 +33,14 @@ Layout inspiration from [Word Unscramble]()
 * Determine combinations
 * Parse through dictionaries to find valid words
 
-### `game.js` file
-* Instantiates game
-* Run and track timer
+### `board.js` file 
+* Instantiates word
 * Validates player words
 * Tracks correctly guessed words
+
+### `game.js` file
+* Instantiates game/board
+* Run and track timer
 * Render to DOM
 
 ### `player.js` file
@@ -67,9 +70,11 @@ It will also utilize the [Scrabble word game dictionary](https://www.wordgamedic
 - [ ] Format dictionaries
 - [ ] word.js file 
 - [ ] player.js file
+
   
 
 ### Day 2
+- [ ] board.js file
 - [ ] game.js file 
 - [ ] keyboard controls 
 
