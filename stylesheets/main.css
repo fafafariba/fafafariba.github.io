@@ -1,0 +1,25 @@
+html {
+  position: relative;
+  height: 100%;
+  background:
+    url(http://www.transparenttextures.com/patterns/batthern.png),
+    aquamarine; /* For browsers that do not support gradients */
+  background:
+    url(http://www.transparenttextures.com/patterns/batthern.png),
+    -webkit-linear-gradient(aquamarine, LightGoldenRodYellow ); /* For Safari 5.1 to 6.0 */
+  background:
+      url(http://www.transparenttextures.com/patterns/batthern.png),
+      -o-linear-gradient(aquamarine, LightGoldenRodYellow ); /* For Opera 11.1 to 12.0 */
+  background:
+      url(http://www.transparenttextures.com/patterns/batthern.png),
+      -moz-linear-gradient(aquamarine, LightGoldenRodYellow ); /* For Firefox 3.6 to 15 */
+  background:
+      url(http://www.transparenttextures.com/patterns/batthern.png),
+      linear-gradient(aquamarine, LightGoldenRodYellow ); /* Standard syntax */
+  }
+  /*// no-repeat center center fixed;
+// -webkit-background-size: cover;
+// -moz-background-size: cover;
+// -o-background-size: cover;
+// background-size: cover;*/
+}

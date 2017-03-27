@@ -2,7 +2,7 @@ var path = require('path');
 
 
 module.exports = {
-  entry: "./lib/logic.js",
+  entry: "./lib/entry.js",
   output: {
   	filename: "./lib/bundle.js"
   },
