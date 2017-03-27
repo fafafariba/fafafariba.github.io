@@ -24,7 +24,7 @@ Layout inspiration from [Word Unscramble]()
 
 ![Alt text](https://github.com/fafafariba/fafafariba.github.io/blob/master/assets/splash_wireframe.png?raw=true "Splash")
 
-![Alt text](https://github.com/fafafariba/fafafariba.github.io/blob/master/assets/splash_wireframe.png?raw=true "Game")
+![Alt text](https://github.com/fafafariba/fafafariba.github.io/blob/master/assets/layout_wireframe.png?raw=true "Game")
 
 ## Architecture & Technologies
 
