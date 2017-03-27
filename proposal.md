@@ -6,7 +6,7 @@ Given a set of letters, the player will try to find as many words as possible in
 
 Players will be able to:
 
-- [ ] Inpput letters via the keyboard
+- [ ] Input letters via the keyboard
 - [ ] Press enter to submit words
 - [ ] Correct submitted words communicated to the player via effects
 - [ ] Incorrect or invalid submissions will be communicated via effects
@@ -21,6 +21,10 @@ Additionally the project will include
 Visual inspiration from [Bonza](https://play.google.com/store/apps/details?id=air.au.com.minimega.bonza)
 
 Layout inspiration from [Word Unscramble]()
+
+![Alt text](https://github.com/fafafariba/fafafariba.github.io/blob/master/assets/splash_wireframe.png?raw=true "Splash")
+
+![Alt text](https://github.com/fafafariba/fafafariba.github.io/blob/master/assets/splash_wireframe.png?raw=true "Game")
 
 ## Architecture & Technologies
 
