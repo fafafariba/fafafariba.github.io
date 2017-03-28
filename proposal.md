@@ -1,4 +1,4 @@
-# Word Unscramble
+# Seek
 
 Given a set of letters, the player will try to find as many words as possible in the alotted time.
 
@@ -6,7 +6,7 @@ Given a set of letters, the player will try to find as many words as possible in
 
 Players will be able to:
 
-- [ ] Inpput letters via the keyboard
+- [ ] Input letters via the keyboard
 - [ ] Press enter to submit words
 - [ ] Correct submitted words communicated to the player via effects
 - [ ] Incorrect or invalid submissions will be communicated via effects
@@ -22,6 +22,10 @@ Visual inspiration from [Bonza](https://play.google.com/store/apps/details?id=ai
 
 Layout inspiration from [Word Unscramble]()
 
+![Alt text](https://github.com/fafafariba/fafafariba.github.io/blob/master/assets/splash_wireframe.png?raw=true "Splash")
+
+![Alt text](https://github.com/fafafariba/fafafariba.github.io/blob/master/assets/layout_wireframe.png?raw=true "Game")
+
 ## Architecture & Technologies
 
 ### `word.js` file 
@@ -29,11 +33,14 @@ Layout inspiration from [Word Unscramble]()
 * Determine combinations
 * Parse through dictionaries to find valid words
 
-### `game.js` file
-* Instantiates game
-* Run and track timer
+### `board.js` file 
+* Instantiates word
 * Validates player words
 * Tracks correctly guessed words
+
+### `game.js` file
+* Instantiates game/board
+* Run and track timer
 * Render to DOM
 
 ### `player.js` file
@@ -61,21 +68,37 @@ It will also utilize the [Scrabble word game dictionary](https://www.wordgamedic
 ### Day 1
 
 - [ ] Format dictionaries
-- [ ] word.js file 
+- [ ] word.js file
+  * Select random 5 letter word
+  * Determine combinations
+  * Parse through dictionaries to find valid words
 - [ ] player.js file
+  * Formats player input
+  * Delegates to game for validating
   
 
 ### Day 2
+- [ ] board.js file
+  * Instantiates word
+  * Validates player words
+  * Tracks correctly guessed words  
 - [ ] game.js file 
+  * Instantiates game/board
+  * Run and track timer
+  * Render to DOM
 - [ ] keyboard controls 
 
 ### Day 3
 
+- [ ] Styling
+  * Color scheme
+  * Font
 - [ ] Animations
+  * Flashing of correct/incorrect words
 
 ### Day 4
 
-- [ ] Styling
+- [ ] Sound Effects
 
 ## Bonus Features
 
