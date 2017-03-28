@@ -2,7 +2,7 @@ var path = require('path');
 
 
 module.exports = {
-  entry: "./lib/entry.js",
+  entry: "./lib/word.js",
   output: {
   	filename: "./lib/bundle.js"
   },
@@ -17,6 +17,9 @@ module.exports = {
        }
      }
    ]
+ },
+ resolve: {
+   extensions: ['*', '.js']
  },
   devtool: 'source-map',
 };
