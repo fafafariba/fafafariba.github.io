@@ -1,4 +1,4 @@
-# Word Unscramble
+# Seek
 
 Given a set of letters, the player will try to find as many words as possible in the alotted time.
 
