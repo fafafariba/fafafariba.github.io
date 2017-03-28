@@ -68,23 +68,37 @@ It will also utilize the [Scrabble word game dictionary](https://www.wordgamedic
 ### Day 1
 
 - [ ] Format dictionaries
-- [ ] word.js file 
+- [ ] word.js file
+  * Select random 5 letter word
+  * Determine combinations
+  * Parse through dictionaries to find valid words
 - [ ] player.js file
-
+  * Formats player input
+  * Delegates to game for validating
   
 
 ### Day 2
 - [ ] board.js file
+  * Instantiates word
+  * Validates player words
+  * Tracks correctly guessed words  
 - [ ] game.js file 
+  * Instantiates game/board
+  * Run and track timer
+  * Render to DOM
 - [ ] keyboard controls 
 
 ### Day 3
 
+- [ ] Styling
+  * Color scheme
+  * Font
 - [ ] Animations
+  * Flashing of correct/incorrect words
 
 ### Day 4
 
-- [ ] Styling
+- [ ] Sound Effects
 
 ## Bonus Features
 
