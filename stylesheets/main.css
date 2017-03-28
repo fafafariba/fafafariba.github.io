@@ -16,10 +16,40 @@ html {
   background:
       url(http://www.transparenttextures.com/patterns/transparent-square-tiles.png),
       linear-gradient(aquamarine, LightGoldenRodYellow ); /* Standard syntax */
-  }
+
+  font-family: 'Raleway Dots', cursive;
+  font-weight: bold;
+  color: darkslategray;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 150px;
+}
+
+h1, h2, h3 {
+  font-family: 'Unica One', cursive;
+  text-transform: uppercase;
+}
   /*// no-repeat center center fixed;
 // -webkit-background-size: cover;
 // -moz-background-size: cover;
 // -o-background-size: cover;
 // background-size: cover;*/
+
+.main {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  border: 1px solid darkslategray;
 }
+
+.timer-round ul{
+  display: flex;
+  justify-content: space-between;
+  }-

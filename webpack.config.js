@@ -2,7 +2,7 @@ var path = require('path');
 
 
 module.exports = {
-  entry: "./lib/word.js",
+  entry: "./lib/game.js",
   output: {
   	filename: "./lib/bundle.js"
   },
