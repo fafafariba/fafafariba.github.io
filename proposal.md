@@ -33,10 +33,8 @@ Layout inspiration from [Word Unscramble]()
 * Determine combinations
 * Parse through dictionaries to find valid words
 
-### `board.js` file 
-* Instantiates word
-* Validates player words
-* Tracks correctly guessed words
+### `timer.js` file 
+* Methods for decrementing and rendering timer
 
 ### `game.js` file
 * Instantiates game/board
