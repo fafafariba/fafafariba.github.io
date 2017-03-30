@@ -43,10 +43,9 @@ Layout inspiration from [Word Unscramble]()
 * Run and track timer
 * Render to DOM
 
-### `player.js` file
-* Formats player input
-* Delegates to game for validating
-
+### `view.js` file
+* Renders game view
+* Handles keyboard inputs
 ### `main.css` file
 * Styling
   * Color scheme
@@ -59,7 +58,7 @@ Layout inspiration from [Word Unscramble]()
 
 ## Technologies
 
-This game will use Vanilla Javascript, Webpack for bundling, and Babel for converint ES6 to ES5 for browswers.
+This game will use Javascript,jQuery, Webpack for bundling, and Babel for converint ES6 to ES5 for browswers.
 
 It will also utilize the [Scrabble word game dictionary](https://www.wordgamedictionary.com/word-lists/) as a reference.
 
