@@ -221,7 +221,10 @@
 	}
 
 	.row.\30 \25 > * {
-		padding: 0px 0 0 0px;
+		padding: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.row.\30 \25 {
@@ -1443,6 +1446,22 @@
 		clear: both;
 	}
 
+/* Skills */
+
+	.skills-image {
+		position: relative;
+		display: block;
+		width: 100%;
+
+
+	}
+
+	.skill-text {
+		position: absolute;
+		color: #ffffff;
+		z-index: 2;
+	}
+
 /* Sections/Article */
 
 	section, article {
@@ -1459,6 +1478,7 @@
 	.row > section, .row > article {
 		margin-bottom: 0;
 	}
+
 
 /* Image */
 
