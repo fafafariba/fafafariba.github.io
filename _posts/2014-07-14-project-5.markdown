@@ -1,0 +1,13 @@
+---
+title: 
+subtitle: 
+layout: default
+modal-id: 5
+ 
+img: startup-framework.png
+thumbnail: startup-framework-thumbnail.png
+alt: image-alt
+client: Start Bootstrap
+description: 
+
+---
