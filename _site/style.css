@@ -246,6 +246,16 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
+#skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill {
+    font-size: 13px;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -445,16 +455,6 @@ section h3.section-subheading {
     z-index: 2;
 }
 
-#skills {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.skill {
-    font-size: 12px;
-}
-
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
@@ -592,10 +592,6 @@ section h3.section-subheading {
     margin-bottom: 0;
 }
 
-.skill {
-    font-size: 24px;
-}
-
 @media(min-width:768px) {
     .timeline:before {
         left: 50%;
@@ -634,6 +630,10 @@ section h3.section-subheading {
         float: right;
         padding: 0 30px 0px 20px;
         text-align: left;
+    }
+
+    .skill {
+        font-size: 24px;
     }
 }
 
