@@ -437,6 +437,12 @@ section h3.section-subheading {
     z-index: 2;
 }
 
+.col-sm-4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
