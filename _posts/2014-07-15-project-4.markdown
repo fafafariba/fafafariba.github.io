@@ -7,7 +7,7 @@ img: portfolio-devise.png
 thumbnail: portfolio-devise.png
 alt: Devise
 description: Devise is an easy-to-use, Android application for finding things to do in the San Francisco Bay Area.
-technologies: "#React-Native #Fetch #FacebookAuth #FacebookAPI #Babel"
+technologies: "#ReactNative #Fetch #FacebookAuth #FacebookAPI #Babel"
 project-url: http://www.getdevise.com/ 
 
 ---
