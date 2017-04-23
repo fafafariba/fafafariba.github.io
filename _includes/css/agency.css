@@ -713,10 +713,23 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
-    background-position: center;
+
+    text-align: center;
+    color: #fff;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 5, 0, 0.9) 
+    ), 
+    url('{{ site.baseurl }}/img/code-snippet.png');
+    background-attachment: scroll;
+    background-position: center center;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    /*background-repeat: no-repeat;*/
 }
 
 section#contact .section-heading {

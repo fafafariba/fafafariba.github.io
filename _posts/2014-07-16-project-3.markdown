@@ -8,6 +8,7 @@ thumbnail: portfolio-seek.png
 alt: Seek
 description: Seek is a simple yet elegant JavaScript based word game. Players are given a set of letters and must find as many words as possible in the time allotted.
 technologies: "#JavaScript #jQuery #CSS #HTML #Babel #Webpack" 
+project-url: http://www.seefaribacode.com/seek/ 
 
 
 ---
