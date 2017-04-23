@@ -451,6 +451,10 @@ section h3.section-subheading {
     justify-content: space-around;
 }
 
+.skill {
+    font-size: 12px;
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
@@ -586,6 +590,10 @@ section h3.section-subheading {
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
+}
+
+.skill {
+    font-size: 24px;
 }
 
 @media(min-width:768px) {
