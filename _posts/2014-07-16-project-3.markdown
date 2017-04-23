@@ -3,13 +3,11 @@ title: Seek
 subtitle: Word game web application
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+img: portfolio-seek.png
+thumbnail: portfolio-seek.png
+alt: Seek
+description: Seek is a simple yet elegant JavaScript based word game. Players are given a set of letters and must find as many words as possible in the time allotted.
+technologies: "#JavaScript #jQuery #CSS #HTML #Babel #Webpack" 
+
 
 ---
