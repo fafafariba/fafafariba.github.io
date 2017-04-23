@@ -437,7 +437,7 @@ section h3.section-subheading {
     z-index: 2;
 }
 
-.col-sm-4 {
+#skills {
     width: 100%;
     display: flex;
     justify-content: space-around;
