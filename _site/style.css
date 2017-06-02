@@ -392,13 +392,13 @@ section h3.section-subheading {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 640px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
-    max-width: 800px;
+    max-width: 6400px;
     height: 100%;
     opacity: 0;
     -webkit-transition: all ease .5s;
@@ -416,7 +416,7 @@ section h3.section-subheading {
     position: absolute;
     top: 50%;
     width: 100%;
-    max-width: 800px;
+    max-width: 640px;
     height: 20px;
     margin-top: -12px;
     text-align: center;
