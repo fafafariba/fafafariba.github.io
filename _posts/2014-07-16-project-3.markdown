@@ -3,8 +3,8 @@ title: Seek
 subtitle: Word game web application
 layout: default
 modal-id: 3
-img: seek-demo.gif
-thumbnail: seek-demo.gif
+img: seek_demo.gif
+thumbnail: seek_demo.gif
 alt: Seek
 description: Seek is a simple yet elegant JavaScript based word game. Players are given a set of letters and must find as many words as possible in the time allotted.
 technologies: "#JavaScript #jQuery #CSS #HTML #Babel #Webpack" 

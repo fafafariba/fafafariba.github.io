@@ -3,8 +3,8 @@ title: Devise
 subtitle: Event finding mobile application
 layout: default
 modal-id: 4
-img: portfolio-devise.png
-thumbnail: portfolio-devise.png
+img: devise_demo.gif
+thumbnail: devise_demo.gif
 alt: Devise
 description: Devise is an easy-to-use, Android application for finding things to do in the San Francisco Bay Area.
 technologies: "#ReactNative #Fetch #FacebookAuth #FacebookAPI #Babel"
