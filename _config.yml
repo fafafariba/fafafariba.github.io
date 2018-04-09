@@ -3,56 +3,15 @@ baseurl:
 
 # Site settings
 title: See Fariba Code.
-email: massah.2@gmail.com
+email: fariba.massah@protonmail.com
 description: "Fariba Massah, Software Engineer. See her code."
-
-
-# # Team names, titles and social links
-# people:
-# - name: Kay Garland
-#   pic: 1
-#   position: Lead Designer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: stack-overflow
-#       url: #
-
-# - name: Larry Parker
-#   pic: 2
-#   position: Lead Marketer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: linkedin
-#       url: #
-
-# - name: Diana Petersen
-#   pic: 3
-#   position: Lead Developer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: google-plus
-#       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
-    url: https://www.linkedin.com/in/fafafariba/?utm_source=portfolio&utm_medium=seefaribacode
+    url: https://www.linkedin.com/in/fmassah/?utm_source=portfolio&utm_medium=seefaribacode
   - title: github
     url: https://github.com/fafafariba?utm_source=portfolio&utm_medium=seefaribacode
-
-# Postal address (add as many lines as necessary)
-# address:
-#   - line: 3481 Melrose Place
-#   - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown
