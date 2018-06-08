@@ -1,0 +1,53 @@
+
+.splash {
+  padding-top: 50px;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(199, 58, 249);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+h1, h3, button {
+  font-family: 'Josefin Sans',sans-serif;
+  /* font-family: 'Gugi', cursive;
+  font-family: 'Bungee Shade', cursive;
+  font-family: 'Hanalei Fill', cursive;
+  font-family: 'Monoton', cursive;
+  font-family: 'Monofett', cursive;
+  font-family: 'Chewy', cursive; */
+  letter-spacing: .2em;
+}
+
+h1#first {
+  font-size: 180px;
+}
+
+h1#last {
+  font-size: 156px;
+}
+
+h3 {
+  font-size: 40px;
+  /* background: radial-gradient(ellipse farthest-corner, rgba(105, 255, 221, .957), rgba(49, 172, 143, 0.5), rgba(199, 58, 249, .5), rgb(199, 58, 249)); */
+  background: radial-gradient( rgba(105, 255, 221, .957), rgba(49, 172, 143, 0.5), rgba(199, 58, 249, .5), rgb(199, 58, 249));
+  width: fit-content;
+  box-shadow: 5px 5px 96px 14px rgb(105, 255, 221);
+  align-self: center;
+}
+
+button {
+  margin-top: 20px;
+  align-self: center;
+  background-color: #222;
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 15px 0;
+  border: 0;
+  box-shadow: 3px 3px 50px 10px rgb(233, 233, 233);
+  width: fit-content;
+}
+
