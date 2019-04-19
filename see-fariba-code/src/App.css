@@ -12,13 +12,14 @@
 }
 
 h1, h3, button {
-  font-family: 'Josefin Sans',sans-serif;
-  /* font-family: 'Gugi', cursive;
-  font-family: 'Bungee Shade', cursive;
-  font-family: 'Hanalei Fill', cursive;
-  font-family: 'Monoton', cursive;
-  font-family: 'Monofett', cursive;
-  font-family: 'Chewy', cursive; */
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Josefin Sans',sans-serif; */
+  /* font-family: 'Gugi', cursive; */
+  /* font-family: 'Bungee Shade', cursive; */
+  /* font-family: 'Monofett', cursive; */
+  font-family: 'Chewy', cursive;
+  font-family: 'Jua', cursive;
   letter-spacing: .2em;
 }
 
@@ -30,17 +31,31 @@ h1#last {
   font-size: 156px;
 }
 
-h3 {
-  font-size: 40px;
+.title-wrapper {
   /* background: radial-gradient(ellipse farthest-corner, rgba(105, 255, 221, .957), rgba(49, 172, 143, 0.5), rgba(199, 58, 249, .5), rgb(199, 58, 249)); */
-  background: radial-gradient( rgba(105, 255, 221, .957), rgba(49, 172, 143, 0.5), rgba(199, 58, 249, .5), rgb(199, 58, 249));
+  border-radius: 50px;
+  border: 0px dotted transparent;
+  background: rgba(105, 255, 221, .88);
+  margin-top: 100px;
+  padding: 0;
+  height: 40px;
+  box-shadow: 4px -3px 114px 59px rgba(105, 255, 221, 0.939);
   width: fit-content;
-  box-shadow: 5px 5px 96px 14px rgb(105, 255, 221);
   align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+    background: transparent;
+    align-self: center;
+    font-size: 40px;
+    width: fit-content;
+
 }
 
 button {
-  margin-top: 20px;
+  margin: 150px 0;
   align-self: center;
   background-color: #222;
   color: whitesmoke;
